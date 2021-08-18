@@ -4,8 +4,6 @@
 This code captures everyday questions (clues)  of New York Times Mini Crossword Puzzle (https://www.nytimes.com/crosswords/game/mini) 
 
 It checks for the html tags to get the information of each clues.
-It creates a dictionary with the above clue information.
-It converts the python objects into json object and export it to clues.json file.
 It exports a list of clues to text file
 
 ## Environment Requirement & Dependencies
