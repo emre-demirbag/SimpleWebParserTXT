@@ -8,15 +8,6 @@
 import requests
 from bs4 import BeautifulSoup as Soup
 
-#Checking Connection
-def check(url):
-	chkUrl=requests.get(url)
-	if chkUrl.status_code == 200:
-		print("HTTP 200 OK: Connection established")
-	else:
-		print("Oops! Something went wrong")
-
-	return None
 
 #Checking Connection
 
